@@ -5,3 +5,5 @@ class Song
     @name = name
     @@all << name
   end
+
+end
