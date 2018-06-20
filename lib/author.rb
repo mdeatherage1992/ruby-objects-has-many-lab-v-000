@@ -29,7 +29,7 @@ def self.post_count
       count += 1
     end
   end
-  return count - 5
+  return count 
 end
 
 
