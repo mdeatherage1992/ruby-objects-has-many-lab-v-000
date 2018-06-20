@@ -11,7 +11,7 @@ def posts
   @posts
 end
 
-def add_posts(post)
+def add_post(post)
   post.author = self
   @posts << post
 end
