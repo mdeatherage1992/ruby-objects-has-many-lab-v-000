@@ -23,7 +23,13 @@ def add_post_by_title(name)
 end
 
 def self.post_count
-  @@all.length
+  count = 0
+  @@all.each do |name|
+    if name
+      count += 1
+    end
+  end
+  return count - 5
 end
 
 
