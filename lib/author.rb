@@ -24,8 +24,8 @@ end
 
 def self.post_count
   count = 0
-  @posts.each do |song|
-    if name
+  @posts.each do |post|
+    if post
       count += 1
     end
   end
