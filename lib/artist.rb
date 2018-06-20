@@ -5,12 +5,15 @@ class Artist
     @name = name
     @songs = []
   end
+
   def songs
     @songs
   end
+
   def add_song(song)
     @songs << song
-    song.artist = self 
+    song.artist = self
+  end
 
 
 
