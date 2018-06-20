@@ -8,11 +8,7 @@ class Song
   end
 
   def artist_name
-    if !self.name
-      nil
-    else
-      return self.name
-    end
+    self.artist.name
   end
 
   def self.all
