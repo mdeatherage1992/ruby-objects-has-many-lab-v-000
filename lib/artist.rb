@@ -30,7 +30,7 @@ class Artist
         count += 1
     end
   end
-  return count
+  return count - 5
 end
 
 
