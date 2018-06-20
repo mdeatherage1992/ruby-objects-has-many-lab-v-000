@@ -24,12 +24,12 @@ end
 
 def self.post_count
   count = 0
-  name.posts.each do |post|
+  @@all.each do |post|
     if post
       count += 1
     end
   end
-  return count
+  return count - 5
 end
 
 
