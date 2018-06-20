@@ -26,6 +26,7 @@ class Artist
     if @songs != nil
     @songs.length
   end
+end
 
 
 
