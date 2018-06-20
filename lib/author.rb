@@ -23,7 +23,7 @@ def add_post_by_title(name)
 end
 
 def self.post_count
-  @posts.length
+  @@all.length
 end
 
 
