@@ -24,7 +24,13 @@ class Artist
   end
 
   def self.song_count
-
+    songs = 0
+    @@all.each do |song|
+      if song
+        songs += 1
+      end
+    end
+    return songs
   end
 
 
