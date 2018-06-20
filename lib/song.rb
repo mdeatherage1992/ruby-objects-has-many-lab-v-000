@@ -14,6 +14,7 @@ class Song
       return self.name
     end
   end
+
   def all
     @@all
   end
