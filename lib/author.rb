@@ -24,7 +24,7 @@ end
 
 def self.post_count
   count = 0
-  @posts.each do |post|
+  posts.each do |post|
     if post
       count += 1
     end
