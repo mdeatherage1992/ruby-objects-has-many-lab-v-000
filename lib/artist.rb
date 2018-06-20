@@ -11,7 +11,7 @@ class Artist
   end
 
   def add_song(song)
-    song = song.new(name)
+    song = Song.new(name)
     @songs << song
     song.artist = self
   end
